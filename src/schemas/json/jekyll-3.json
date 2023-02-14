@@ -67,7 +67,7 @@
         "/:title",
         "/:output_ext"
       ],
-      "pattern": "^(/(:(collection|path|name|title|output_ext))+)+$"
+      "pattern": "^(/(:(collection|path|name|title|output_ext))+)+(/?)$"
     }
   },
   "properties": {
